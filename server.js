@@ -30,7 +30,7 @@ wsServer.on('request', function (request) {
   //console.log(request)
 
   var connection = request.accept(null, request.origin)
-  if (connection.remoteAddresses[0] === "::ffff:192.168.1.14") {
+  if (connection.remoteAddresses[0] === "id") {
 
     connection.on('message', function (message) {
       if (message.type === 'utf8') {
