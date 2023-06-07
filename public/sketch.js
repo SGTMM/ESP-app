@@ -1,4 +1,4 @@
-//var socket = new WebSocket('https://192.168.1.7:5000');
+//var socket = new WebSocket('ip');
 
 var socket = io()
 
